@@ -1,0 +1,10 @@
+COMO ADICIONAR SUAS IMAGENS:
+
+1. Para a logo: Salve o arquivo da sua logo real exatamente com o nome 'logo.png' dentro desta pasta.
+
+2. Para as fotos dos produtos (na pagina produtos.html): Salve as fotos reais com os seguintes nomes nesta pasta:
+- isopaineis.jpg
+- portas.jpg
+- telhas.jpg
+
+Isso fará com que o site puxe automaticamente as suas imagens reais.

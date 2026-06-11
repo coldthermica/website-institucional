@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Produtos | Cold Thermica</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-animation"></div>
+    <div class="bg-vignette"></div>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo-container">
+                <img src="assets/logo.png" alt="Cold Thermica" onerror="this.src='https://via.placeholder.com/200x60/0B1116/009FE3?text=COLD+THERMICA';">
+            </a>
+            <nav class="nav-menu">
+                <a href="produtos.html" class="nav-link active">PRODUTOS</a>
+                <a href="servicos.html" class="nav-link">SERVIÇOS</a>
+                <button class="btn-contact-trigger" onclick="openModal()">CONTATO</button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-title-section">
+        <div class="container">
+            <h1>CATÁLOGO DE PRODUTOS</h1>
+            <p class="subtitle">Componentes estruturais para máxima eficiência térmica.</p>
+        </div>
+    </section>
+
+    <main class="container content-wrapper">
+        <div class="products-grid">
+            
+            <div class="product-category-card">
+                <h2><i class="fa-solid fa-layer-group icon-accent"></i> Isopainéis Industriais</h2>
+                <img src="assets/paineis.jpg" alt="Isopainéis EPS e PUR" class="product-real-img" onerror="this.src='https://via.placeholder.com/1000x400/121A21/009FE3?text=Foto+Isopaineis';">
+                <div class="sub-product-item">
+                    <h3>Isopainéis EPS (50mm a 200mm)</h3>
+                    <p>Largura útil de 1160mm. Núcleo em Poliestireno Expandido (F-1 autoextinguível). Condutibilidade térmica de 0,028 Kcal/h.m.°C.</p>
+                </div>
+                <div class="sub-product-item">
+                    <h3>Isopainéis PUR (Poliuretano)</h3>
+                    <p>Máxima eficiência de isolamento para rígido controle de temperatura em ambientes de congelados e resfriamento extremo.</p>
+                </div>
+            </div>
+
+            <div class="product-category-card">
+                <h2><i class="fa-solid fa-door-closed icon-accent"></i> Portas Frigoríficas</h2>
+                <img src="assets/porta_frigo.jpg" alt="Portas Frigoríficas" class="product-real-img" onerror="this.src='https://via.placeholder.com/1000x400/121A21/009FE3?text=Foto+Portas';">
+                <ul class="product-bullet-list">
+                    <li><i class="fa-solid fa-check text-blue"></i> Porta de Correr (100mm a 200mm)</li>
+                    <li><i class="fa-solid fa-check text-blue"></i> Porta Giratória</li>
+                    <li><i class="fa-solid fa-check text-blue"></i> Portinhola Industrial</li>
+                    <li><i class="fa-solid fa-check text-blue"></i> Porta Correr Automática</li>
+                    <li><i class="fa-solid fa-check text-blue"></i> Porta Vertical Seccional</li>
+                    <li><i class="fa-solid fa-check text-blue"></i> Porta Correr Sala Limpa</li>
+                </ul>
+            </div>
+            
+            <div class="product-category-card">
+                <h2><i class="fa-solid fa-roof-flex icon-accent"></i> Telhas e Placas EPS para Piso</h2>
+                <img src="assets/telha_forro.jpg" alt="Telhas Térmicas" class="product-real-img" onerror="this.src='https://via.placeholder.com/1000x400/121A21/009FE3?text=Foto+Telhas';">
+                <ul class="product-bullet-list">
+                    <li><i class="fa-solid fa-check text-blue"></i> Telhas Térmicas e Termoacústicas</li>
+                    <li><i class="fa-solid fa-check text-blue"></i> Placas Isolantes EPS</li>
+                </ul>
+            </div>
+
+            <div class="product-category-card">
+                <h2><i class="fa-solid fa-grip-lines-vertical icon-accent"></i> Perfis Auxiliares</h2>
+                <img src="assets/perfis.jpg" alt="Perfis Metálicos e Cantoneiras" class="product-real-img" onerror="this.src='https://via.placeholder.com/1000x400/121A21/009FE3?text=Foto+Perfis+Auxiliares';">
+                
+                <ul class="product-bullet-list">
+                    <li><i class="fa-solid fa-caret-right text-blue"></i> PERFIL "U" 30MM CHAPA PRE-PINTADA</li>
+                    <li><i class="fa-solid fa-caret-right text-blue"></i> PERFIL "U" 50MM CHAPA PRE-PINTADA</li>
+                    <li><i class="fa-solid fa-caret-right text-blue"></i> PERFIL "U" 100MM CHAPA PRE-PINTADA</li>
+                    <li><i class="fa-solid fa-caret-right text-blue"></i> PERFIL "U" 150MM CHAPA PRE-PINTADA</li>
+                    <li><i class="fa-solid fa-caret-right text-blue"></i> PERFIL "U" 200MM CHAPA PRE-PINTADA</li>
+                    <li><i class="fa-solid fa-caret-right text-blue"></i> CANTONEIRA LI 40 X 40 MM CHAPA PRE-PINTADA INTERNA</li>
+                    <li><i class="fa-solid fa-caret-right text-blue"></i> CANTONEIRA LE 40 X 90 MM CHAPA PRE-PINTADA EXTERNA</li>
+                    <li><i class="fa-solid fa-caret-right text-blue"></i> CANTONEIRA LE 40 X 140MM CHAPA PRE-PINTADA EXTERNA</li>
+                    <li><i class="fa-solid fa-caret-right text-blue"></i> CANTONEIRA LE 40 X 190MM CHAPA PRE-PINTADA EXTERNA</li>
+                    <li><i class="fa-solid fa-caret-right text-blue"></i> CANTONEIRA LE 40 X 240 MM CHAPA PRE-PINTADA EXTERNA</li>
+                </ul>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-left">
+                <p>&copy; 2026 Coldthermica. Todos os direitos reservados.</p>
+                <p class="address">
+                    <i class="fa-solid fa-location-dot" style="margin-right: 5px;"></i> 
+                    <a href="https://share.google/e5iCk2s1uj4BZ14IL" target="_blank" rel="noopener noreferrer">
+                        Rua Alzira de Menezes Nogueira, 151, Ribeirão das Neves - MG, 33880-300
+                    </a>
+                </p>
+            </div>
+            <div class="footer-right">
+                <a href="https://instagram.com/coldthermica" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5531984183835" class="whatsapp-float" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    
+   <div id="contactModal" class="modal-overlay">
+        <div class="modal-box">
+            <div class="modal-header">
+                <span class="modal-title"><i class="fa-solid fa-terminal"></i> CONEXÃO DIRETA</span>
+                <button class="modal-close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <a href="https://wa.me/5531984183835" target="_blank" class="modal-action-row channels-whatsapp">
+                    <div style="display:flex; align-items:center;">
+                        <i class="fa-brands fa-whatsapp icon-green"></i>
+                        <span style="color:#FFF;">Iniciar Chat Rápido</span>
+                    </div>
+                    <span class="action-btn-text">CONECTAR</span>
+                </a>
+                <div class="modal-action-row">
+                    <div style="display:flex; align-items:center;">
+                        <i class="fa-solid fa-envelope" style="margin-right:12px; color:var(--text-muted);"></i>
+                        <span>comercial@coldthermica.com.br</span>
+                    </div>
+                    <button class="btn-copy" onclick="copyText('comercial@coldthermica.com.br', this)">COPIAR</button>
+                </div>
+                <div class="modal-action-row">
+                    <div style="display:flex; align-items:center;">
+                        <i class="fa-solid fa-envelope" style="margin-right:12px; color:var(--text-muted);"></i>
+                        <span>contato@coldthermica.com.br</span>
+                    </div>
+                    <button class="btn-copy" onclick="copyText('contato@coldthermica.com.br', this)">COPIAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openModal() { document.getElementById('contactModal').classList.add('active'); }
+        function closeModal() { document.getElementById('contactModal').classList.remove('active'); }
+        window.onclick = function(event) { if (event.target == document.getElementById('contactModal')) closeModal(); }
+    </script>
+</body>
+</html>

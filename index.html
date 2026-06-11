@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cold Thermica | Isopainéis e Refrigeração Industrial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-animation"></div>
+    <div class="bg-vignette"></div>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo-container">
+                <img src="assets/logo.png" alt="Cold Thermica Logo" onerror="this.src='https://via.placeholder.com/200x60/0B1116/009FE3?text=COLD+THERMICA';">
+            </a>
+            <nav class="nav-menu">
+                <a href="produtos.html" class="nav-link">PRODUTOS</a>
+                <a href="servicos.html" class="nav-link">SERVIÇOS</a>
+                <button class="btn-contact-trigger" onclick="openModal()">CONTATO</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="hero">
+        <div class="hero-intro">
+            <h1> <span>Isopainéis</span> e Refrigeração</h1>
+            <p>Alta performance térmica e montagem industrial para o seu negócio.</p>
+        </div>
+
+        <div class="hero-cards-container">
+            <a href="produtos.html" class="tech-card">
+                <div class="card-bg-img" style="background-image: url('assets/pp1.jpg');"></div>
+                <div class="btn-plus"><i class="fas fa-arrow-right"></i></div>
+                <div class="card-content">
+                    <i class="fa-solid fa-boxes-stacked card-icon"></i>
+                    <h2 class="card-title">PRODUTOS</h2>
+                    <div class="card-badges">
+                        <span class="badge-tag">Isopainéis EPS e PIR</span>
+                        <span class="badge-tag">Portas Frigoríficas (11 Modelos)</span>
+                        <span class="badge-tag">Telhas Térmicas</span>
+                        <span class="badge-tag">Perfis Auxiliares</span>
+                        <span class="badge-tag">Camara Fria</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="servicos.html" class="tech-card">
+                <div class="card-bg-img" style="background-image: url('assets/pp2.jpg');"></div>
+                <div class="btn-plus"><i class="fas fa-arrow-right"></i></div>
+                <div class="card-content">
+                    <i class="fa-solid fa-gears card-icon"></i>
+                    <h2 class="card-title">SERVIÇOS</h2>
+                    <div class="card-badges">
+                        <span class="badge-tag">Montagem de Câmaras Frias</span>
+                        <span class="badge-tag">dimensionamento térmico</span>
+                        <span class="badge-tag">Instalação de Equipamentos</span>
+                        <span class="badge-tag">Manutenção Especializada</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <section class="carousel-section">
+        <div class="carousel-title">PORTFÓLIO DE COMPONENTES</div>
+        <div class="marquee-container">
+            <div class="marquee-track">
+                <div class="marquee-item">
+                    <div class="circle-img-wrapper"><img src="assets/paineis.jpg" alt="Isopainéis" class="carousel-real-img" onerror="this.src='https://via.placeholder.com/150/121A21/009FE3?text=Painel';"></div>
+                    <span class="marquee-label">Isopainéis</span>
+                </div>
+                <div class="marquee-item">
+                    <div class="circle-img-wrapper"><img src="assets/telha_forro.jpg" alt="Telha Forro" class="carousel-real-img" onerror="this.src='https://via.placeholder.com/150/121A21/009FE3?text=Telha';"></div>
+                    <span class="marquee-label">Telhas</span>
+                </div>
+                <div class="marquee-item">
+                    <div class="circle-img-wrapper"><img src="assets/porta_frigo.jpg" alt="Porta Frigorífica" class="carousel-real-img" onerror="this.src='https://via.placeholder.com/150/121A21/009FE3?text=Porta';"></div>
+                    <span class="marquee-label">Portas</span>
+                </div>
+                <div class="marquee-item">
+                    <div class="circle-img-wrapper"><img src="assets/portinhola.jpg" alt="Portinhola" class="carousel-real-img" onerror="this.src='https://via.placeholder.com/150/121A21/009FE3?text=Portinhola';"></div>
+                    <span class="marquee-label">Portinholas</span>
+                </div>
+                <div class="marquee-item">
+                    <div class="circle-img-wrapper"><img src="assets/perfil_u.jpg" alt="Perfil U" class="carousel-real-img" onerror="this.src='https://via.placeholder.com/150/121A21/009FE3?text=Perfil+U';"></div>
+                    <span class="marquee-label">Perfil U</span>
+                </div>
+                <div class="marquee-item">
+                    <div class="circle-img-wrapper"><img src="assets/perfil_li.jpg" alt="Cantoneira LI" class="carousel-real-img" onerror="this.src='https://via.placeholder.com/150/121A21/009FE3?text=Perfil+LI';"></div>
+                    <span class="marquee-label">Cantoneira LI</span>
+                </div>
+                <div class="marquee-item">
+                    <div class="circle-img-wrapper"><img src="assets/perfil_le.jpg" alt="Cantoneira LE" class="carousel-real-img" onerror="this.src='https://via.placeholder.com/150/121A21/009FE3?text=Perfil+LE';"></div>
+                    <span class="marquee-label">Cantoneira LE</span>
+                </div>
+                <div class="marquee-item">
+                    <div class="circle-img-wrapper"><img src="assets/camaras.jpg" alt="Câmaras Frigoríficas" class="carousel-real-img" onerror="this.src='https://via.placeholder.com/150/121A21/009FE3?text=Camaras';"></div>
+                    <span class="marquee-label">Câmaras</span>
+                </div>
+                
+                <div class="marquee-item">
+                    <div class="circle-img-wrapper"><img src="assets/paineis.jpg" alt="Isopainéis" class="carousel-real-img" onerror="this.src='https://via.placeholder.com/150/121A21/009FE3?text=Painel';"></div>
+                    <span class="marquee-label">Isopainéis</span>
+                </div>
+                <div class="marquee-item">
+                    <div class="circle-img-wrapper"><img src="assets/telha_forro.jpg" alt="Telha Forro" class="carousel-real-img" onerror="this.src='https://via.placeholder.com/150/121A21/009FE3?text=Telha';"></div>
+                    <span class="marquee-label">Telhas</span>
+                </div>
+                <div class="marquee-item">
+                    <div class="circle-img-wrapper"><img src="assets/porta_frigo.jpg" alt="Porta Frigorífica" class="carousel-real-img" onerror="this.src='https://via.placeholder.com/150/121A21/009FE3?text=Porta';"></div>
+                    <span class="marquee-label">Portas</span>
+                </div>
+                <div class="marquee-item">
+                    <div class="circle-img-wrapper"><img src="assets/portinhola.jpg" alt="Portinhola" class="carousel-real-img" onerror="this.src='https://via.placeholder.com/150/121A21/009FE3?text=Portinhola';"></div>
+                    <span class="marquee-label">Portinholas</span>
+                </div>
+                <div class="marquee-item">
+                    <div class="circle-img-wrapper"><img src="assets/perfil_u.jpg" alt="Perfil U" class="carousel-real-img" onerror="this.src='https://via.placeholder.com/150/121A21/009FE3?text=Perfil+U';"></div>
+                    <span class="marquee-label">Perfil U</span>
+                </div>
+                <div class="marquee-item">
+                    <div class="circle-img-wrapper"><img src="assets/perfil_li.jpg" alt="Cantoneira LI" class="carousel-real-img" onerror="this.src='https://via.placeholder.com/150/121A21/009FE3?text=Perfil+LI';"></div>
+                    <span class="marquee-label">Cantoneira LI</span>
+                </div>
+                <div class="marquee-item">
+                    <div class="circle-img-wrapper"><img src="assets/perfil_le.jpg" alt="Cantoneira LE" class="carousel-real-img" onerror="this.src='https://via.placeholder.com/150/121A21/009FE3?text=Perfil+LE';"></div>
+                    <span class="marquee-label">Cantoneira LE</span>
+                </div>
+                <div class="marquee-item">
+                    <div class="circle-img-wrapper"><img src="assets/camaras.jpg" alt="Câmaras Frigoríficas" class="carousel-real-img" onerror="this.src='https://via.placeholder.com/150/121A21/009FE3?text=Camaras';"></div>
+                    <span class="marquee-label">Câmaras</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-left">
+                <p>© 2026 Coldthermica. Todos os direitos reservados.</p>
+                <p class="address">
+                    <i class="fa-solid fa-location-dot" style="margin-right: 5px;"></i> 
+                    <a href="https://share.google/e5iCk2s1uj4BZ14IL" target="_blank" rel="noopener noreferrer">
+                        Rua Alzira de Menezes Nogueira, 151, Ribeirão das Neves - MG, 33880-300
+                    </a>
+                </p>
+            </div>
+            <div class="footer-right">
+                <a href="https://instagram.com/coldthermica" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5531984183835" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <div id="contactModal" class="modal-overlay">
+        <div class="modal-box">
+            <div class="modal-header">
+                <span class="modal-title"><i class="fa-solid fa-terminal"></i> CONEXÃO DIRETA</span>
+                <button class="modal-close-btn" onclick="closeModal()">×</button>
+            </div>
+            <div class="modal-body">
+                <a href="https://wa.me/5531984183835" target="_blank" class="modal-action-row channels-whatsapp">
+                    <div style="display:flex; align-items:center;">
+                        <i class="fa-brands fa-whatsapp icon-green"></i>
+                        <span style="color:#FFF;">Iniciar Chat Rápido</span>
+                    </div>
+                    <span class="action-btn-text">CONECTAR</span>
+                </a>
+                <div class="modal-action-row">
+                    <div style="display:flex; align-items:center;">
+                        <i class="fa-solid fa-envelope" style="margin-right:12px; color:var(--text-muted);"></i>
+                        <span>comercial@coldthermica.com.br</span>
+                    </div>
+                    <button class="btn-copy" onclick="copyText('comercial@coldthermica.com.br', this)">COPIAR</button>
+                </div>
+                <div class="modal-action-row">
+                    <div style="display:flex; align-items:center;">
+                        <i class="fa-solid fa-envelope" style="margin-right:12px; color:var(--text-muted);"></i>
+                        <span>contato@coldthermica.com.br</span>
+                    </div>
+                    <button class="btn-copy" onclick="copyText('contato@coldthermica.com.br', this)">COPIAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openModal() { document.getElementById('contactModal').classList.add('active'); }
+        function closeModal() { document.getElementById('contactModal').classList.remove('active'); }
+        function copyText(text, btn) {
+            navigator.clipboard.writeText(text).then(() => {
+                const originalText = btn.innerText;
+                btn.innerText = 'COPIADO!';
+                setTimeout(() => { btn.innerText = originalText; }, 2000);
+            });
+        }
+        window.onclick = function(event) { if (event.target == document.getElementById('contactModal')) closeModal(); }
+    </script>
+</body>
+</html>
