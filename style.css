@@ -189,12 +189,24 @@ h1, h2, h3, .nav-link, .card-title, .badge-tag { font-family: var(--font-display
 .service-text-box p { font-size: 1rem; color: var(--text-muted); }
 
 /* Footer */
-.footer { background: #05080c; border-top: 1px solid var(--border); padding: 30px 0; margin-top: auto; }
-.footer-grid { display: flex; justify-content: space-between; align-items: center; }
-.footer-left p, .footer-left a { color: var(--text-muted); font-size: 0.85rem; text-decoration: none; }
+.footer { background: #05080c; border-top: 1px solid var(--border); padding: 40px 0; margin-top: auto; }
+.footer-grid { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+.footer-left p, .footer-left a { color: var(--text-muted); font-size: 0.9rem; text-decoration: none; }
 .footer-left a:hover { color: var(--primary); }
-.footer-right a { color: var(--text-muted); font-size: 1.3rem; transition: color 0.3s; margin-left: 10px; }
+.footer-right a { color: var(--text-muted); font-size: 1.5rem; transition: color 0.3s; margin-left: 10px; }
 .footer-right a:hover { color: var(--primary); }
+
+/* --- NOVAS REGRAS ADICIONADAS PARA OS TELEFONES --- */
+.footer-center { display: flex; flex-direction: column; gap: 8px; }
+.footer-center p, .footer-center a { color: var(--text-muted); font-size: 0.9rem; text-decoration: none; }
+.footer-center a:hover { color: var(--primary); }
+
+/* Ajuste essencial para que o rodapé não quebre em telas de celular */
+@media (max-width: 768px) {
+    .footer-grid { flex-direction: column; text-align: center; gap: 25px; }
+    .footer-right a { margin: 0 10px; }
+}
+
 
 /* WhatsApp Float Button */
 .whatsapp-float {
